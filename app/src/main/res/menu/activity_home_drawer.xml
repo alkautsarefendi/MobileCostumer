@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/menu_informasi">
+        <menu>
+            <item
+                android:id="@+id/nav_cek_tagihan"
+                android:icon="@mipmap/bill"
+                android:title="@string/menu_cek_tagihan" />
+            <item
+                android:id="@+id/nav_status_pendaftaran"
+                android:icon="@mipmap/registration1"
+                android:title="@string/menu_status_pendaftaran" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_berita">
+        <menu>
+            <item
+                android:id="@+id/nav_berita"
+                android:icon="@mipmap/news2"
+                android:title="@string/berita" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_complain">
+        <menu>
+            <item
+                android:id="@+id/nav_pengaduan"
+                android:icon="@mipmap/complaint1"
+                android:title="@string/menu_pengaduan" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_location">
+        <menu>
+            <item
+                android:id="@+id/nav_lokasi"
+                android:icon="@mipmap/location"
+                android:title="@string/menu_lokasi" />
+        </menu>
+    </item>
+
+</menu>

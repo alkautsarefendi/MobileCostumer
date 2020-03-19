@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:orientation="vertical"
+    tools:context="com.fortuna.android.mobilecustomer.informasi.InformasiTagihanHasilActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="48dp"
+                        android:orientation="horizontal">
+
+                        <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                            android:id="@+id/tvJudul"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1.00"
+                            android:gravity="center"
+                            android:text="@string/data_tagihan"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="24sp"
+                            android:textStyle="bold"
+                            android:typeface="monospace" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llKodePDAM"
+                            android:layout_width="fill_parent"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.00"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:text="@string/kode_pdam"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.06"
+                                android:gravity="center"
+                                android:text="@string/titik_dua"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:id="@+id/TxtViewKodePDAM"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llNamaPDAM"
+                            android:layout_width="fill_parent"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.00"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:text="@string/nama_pdam"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.06"
+                                android:gravity="center"
+                                android:text="@string/titik_dua"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:id="@+id/TxtViewNamaPDAM"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llIDPel"
+                            android:layout_width="fill_parent"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.00"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:text="@string/id_pel"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.06"
+                                android:gravity="center"
+                                android:text="@string/titik_dua"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:id="@+id/TxtViewIdPelanggan"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llNama"
+                            android:layout_width="fill_parent"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.00"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:text="@string/nama_pel"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.06"
+                                android:gravity="center"
+                                android:text="@string/titik_dua"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:id="@+id/TxtViewNama"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llAlamat"
+                            android:layout_width="fill_parent"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.00"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:text="@string/alamat_pel"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.06"
+                                android:gravity="center"
+                                android:text="@string/titik_dua"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:id="@+id/TxtViewAlamat"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llPeriode"
+                            android:layout_width="fill_parent"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.00"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:text="@string/periode"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.06"
+                                android:gravity="center"
+                                android:text="@string/titik_dua"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:id="@+id/TxtPeriode"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llAmount"
+                            android:layout_width="fill_parent"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.00"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:text="@string/amount"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.06"
+                                android:gravity="center"
+                                android:text="@string/titik_dua"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:id="@+id/TxtViewAmount"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llDenda"
+                            android:layout_width="fill_parent"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.00"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:text="@string/denda"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.06"
+                                android:gravity="center"
+                                android:text="@string/titik_dua"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:id="@+id/TxtViewDenda"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/llTotalAmount"
+                            android:layout_width="fill_parent"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.00"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="5dp">
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:text="@string/total_amt"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="0.06"
+                                android:gravity="center"
+                                android:text="@string/titik_dua"
+                                android:textColor="@color/black" />
+
+                            <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                                android:id="@+id/TxtViewTotalAmount"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.42"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/black" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/llLiatLokasi"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="5dp">
+
+                        <com.fortuna.android.mobilecustomer.button.ButtonPlus
+                            android:id="@+id/btnLiatLokasi"
+                            style="@style/my_button"
+                            android:layout_width="0dp"
+                            android:layout_height="48dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1.00"
+                            android:background="@drawable/btn_color_changed"
+                            android:text="@string/btn_liat_lokasi_bayar"
+                            android:textColor="@color/white"
+                            android:typeface="monospace" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <com.fortuna.android.mobilecustomer.view.MyCustomTextViewArial
+                    android:id="@+id/copyRight"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/txt_copyright"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

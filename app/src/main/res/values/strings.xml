@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Mobile Customer</string>
+
+    <string name="title_activity_informasi_tagihan">Informasi Tagihan Pelanggan</string>
+    <string name="title_activity_status_pendaftaran">Status Pendaftaran</string>
+    <string name="title_activity_berita_pdam">Berita Terbaru</string>
+    <string name="title_activity_pengaduan_pelanggan">Pengaduan Pelanggan</string>
+    <string name="title_activity_lokasi_pembayaran">Lokasi Kantor</string>
+    <string name="title_activity_informasi_tagihan_hasil">Informasi Tagihan</string>
+    <string name="title_activity_lokasi_kantor">Lokasi Kantor</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- String related to Home -->
+    <string name="action_pilih_menu_home_drawer">Menu Layanan</string>
+    <string name="pdam_name">Copyright &#169; PDAM DEMO</string>
+    <string name="txt_title_home">Aplikasi Untuk Pelanggan\nPDAM DEMO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_informasi">Information</string>
+    <string name="menu_cek_tagihan">Informasi Tagihan</string>
+    <string name="menu_status_pendaftaran">Status Pendaftaran</string>
+    <string name="menu_berita">News</string>
+    <string name="berita">Berita Terbaru</string>
+    <string name="menu_complain">Complain</string>
+    <string name="menu_pengaduan">Pengaduan Pelanggan</string>
+    <string name="menu_location">Location</string>
+    <string name="menu_lokasi">Lokasi Kantor</string>
+    <string name="menu_keluar">Keluar</string>
+
+    <string name="home_title">Aplikasi Untuk Pelanggan</string>
+    <string name="home_pdam">PDAM DEMO</string>
+    <string name="home_pdam_locale">Indonesia</string>
+
+    <!-- String related to Informasi Tagihan -->
+    <string name="company_header">PDAM DEMO \nIndonesia</string>
+    <string name="pdam">PDAM DEMO</string>
+    <string name="pdam_desc">Masukkan ID pelanggan dan pastikan ID pelanggan anda benar.</string>
+    <string name="hint_pelanggan">ID Pelanggan</string>
+    <string name="btnCekcTagihan">Cek Tagihan</string>
+    <string name="txt_copyright">Copyright &#169; PDAM DEMO \nSupported By IT Consultant Development System</string>
+
+    <!-- String related to Informasi Tagihan Hasil -->
+    <string name="data_tagihan">Detail Data Tagihan</string>
+    <string name="kode_pdam">KODE PDAM</string>
+    <string name="responHttp">RESPON HTTP</string>
+    <string name="id_pelanggan_label">ID PELANGGAN</string>
+    <string name="rescode">RES CODE</string>
+    <string name="nama_pdam">NAMA PDAM</string>
+    <string name="nama_pel">NAMA</string>
+    <string name="alamat_pel">ALAMAT</string>
+    <string name="amount">AMOUNT</string>
+    <string name="denda">DENDA</string>
+    <string name="id_pel">ID PEL</string>
+    <string name="periode">S/D PERIODE</string>
+    <string name="total_amt">TOTAL AMOUNT</string>
+    <string name="token_pln">TOKEN PLN</string>
+    <string name="kd_pdam">PILIH PDAM</string>
+    <string name="btn_inquiry">INQUIRY</string>
+    <string name="btn_payment">BAYAR</string>
+    <string name="pilih_pdam">PILIH PDAM</string>
+    <string name="titik_dua">:</string>
+    <string name="btn_liat_lokasi_bayar">Lihat Lokasi Kantor</string>
+
+    <!-- String related to Pengaduan Pelanggan -->
+    <string name="hint_nama_pengaduan">Nama Pelanggan</string>
+    <string name="hint_kode_pelanggan">ID Pelanggan</string>
+    <string name="hint_alamat_pelanggan">Alamat Pelanggan</string>
+    <string name="hint_email_pengaduan">Email Pelanggan</string>
+    <string name="hint_no_telepon">No. Telepon</string>
+    <string name="hint_no_ponsel">No. Ponsel</string>
+    <string name="hint_message">Ketik Pesan Anda disini</string>
+    <string name="btn_pengaduan">Kirim Pengaduan</string>
+
+    <!-- String related to Status Pendaftaran -->
+    <string name="status_pendaftaran_desc">Masukkan No Pendaftaran Anda Untuk Melakukan Pengecekan Status</string>
+    <string name="hint_input_status_daftar">No Pendaftaran</string>
+    <string name="btn_status">Cek Status Pendaftaran</string>
+
+    <string name="txt_no_daftar">NO DAFTAR</string>
+    <string name="txt_nama">NAMA</string>
+    <string name="txt_alamat">ALAMAT</string>
+    <string name="txt_tanggal">TANGGAL</string>
+    <string name="txt_ket_status">STATUS</string>
+
+    <!-- String related to Lokasi Pembayaran -->
+    <string name="profile_id1">PDAM DEMO</string>
+    <string name="profile_id2">Jl. DEMO No.204, Hanya Untuk DEMO Aplikasi. Kode Pos : 15118</string>
+    <string name="profile_id3">Telepon : (021) 55777 666 \nMobile : 0821 22777 666</string>
+    <string name="lokasi">Tampilkan Peta Lokasi</string>
+
+    <string name="msg_izin">Anda harus menerima perizinan untuk dapat menggunakan Aplikasi</string>
+
+</resources>
